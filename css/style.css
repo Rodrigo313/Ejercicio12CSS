@@ -86,7 +86,51 @@ blockquote {
 }
 
 /** Grid aqui**/
-.footer{
-    display: grid;
+.footer .contenedor{
+    display: flex;
+    grid-gap: 1rem;
     grid-template-columns: repeat (4, 25%);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navegacion .contenedor{
+    display: flex;
+    grid-gap: 6rem;
+    grid-template-columns: repeat (4, 25%);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sliderContenedor{
+    padding: 50px;
+}
+
+
+.contenedor-contenido-principal .titulo{
+    display: grid;
+}
+
+.contenedor-contenido-principal .entrada{
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+}
+
+.contenedor-contenido-principal .informacion {
+    display: grid;
+    grid-template-columns: 20%;
+    justify-content: left;
+}
+
+.contenedor-contenido-principal .imagen1{
+    display: grid;
+    grid-template-columns: 20%;
+    justify-content: right;
+}
+
+.contenedor-contenido-principal .imagen2{
+    display: grid;
+    grid-template-columns: 20%;
+    justify-content: left;
 }
