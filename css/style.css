@@ -132,10 +132,11 @@ blockquote {
 
 .contenedor-contenido-principal .informacion {
     display: grid;
-    grid-template-columns: 20%;
-    justify-content: left;
+    grid-template-columns: 100%;
     grid-column: 1;
     grid-row: 2;
+    margin-left: 40%;
+
 }
 
 .contenedor-contenido-principal .imagen1{
